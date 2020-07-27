@@ -1,0 +1,76 @@
+@media all and (max-width:1200px) {
+    body {
+        width: 100%;
+    }
+
+    .second-menu {
+        width: 90%;
+
+        text-align: center;
+    }
+}
+
+@media all and (max-width:768px) {
+
+    .myservice-text .template,
+    .myservice-text .brand,
+    .myservice-text .dreams {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .portfolio-photo .first-photo,
+    .portfolio-photo .second-photo,
+    .portfolio-photo .third-photo,
+    .portfolio-photo .forth-photo,
+    .portfolio-photo .fifth-photo,
+    .portfolio-photo .sixth-photo,
+    .gallery-first,
+    .gallery-second,
+    .gallery-third,
+    .gallery-forth,
+    .gallery-fifth,
+    .gallery-sixth {
+        float: none;
+        width: 100%;
+    }
+    .subscribe-input input:first-child{
+        
+        font-size: 16px;
+        padding: 5px 10px;
+        padding: 5px 10px;
+    }
+    .subscribe-input input:nth-child(2){
+        font-size: 16px;
+        padding: 8px 10px;
+        overflow: hidden;
+    }
+    .whatido-area h1,.third-section h1,.designlove-area h1,.second-header h1{
+        font-size: 30px;
+        padding-bottom: 20px;
+     
+    }
+ {
+    color: #fff;
+    font-size: 30px;
+}
+
+}
+@media all and (max-width:476px){
+    .subscribe-input input:first-child{
+        float: none;
+       
+        width: 90%;
+        margin:0px auto 20px;
+        display: block;
+    } 
+    .subscribe-input input:nth-child(2){
+        overflow: visible;
+        width: 90%;
+        margin: auto;
+    
+    }
+    .footer .fab{font-size: 22px;}
+}

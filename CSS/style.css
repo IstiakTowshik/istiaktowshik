@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif, arial;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+/*header 
+starts 
+here*/
+.header {
+    background: #2A2028;
+    text-align: center;
+
+    margin: auto;
+    padding-bottom: 27px;
+
+}
+
+
+.header .logo-area {
+    padding-top: 50px;
+    padding-bottom: 112px;
+
+}
+
+.header .logo-area img {
+    width: 80px;
+
+}
+
+.designlove-area h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 45px;
+}
+
+.designlove-area p {
+    color: #fff;
+    font-size: 15px;
+    padding-top: 27px;
+    padding-bottom: 106px;
+}
+
+.header .fas {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 6px;
+}
+
+/*firstsection 
+start 
+here*/
+.first-section {
+    background: #fff;
+    width: 100%;
+    padding-bottom: 90px;
+    border: 1px solid #504646;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: url(../images/background.png);
+}
+
+.firstsection-textarea {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding-top: 65px;
+
+}
+
+.firstsection-textarea p {
+    padding: 10px 0;
+    color: #5D4F4C;
+    font-size: 16px;
+    text-transform: inherit;
+}
+
+.whatido-area {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    overflow: hidden;
+
+
+}
+
+.whatido-area h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    padding-bottom: 70px;
+}
+
+.myservice-text {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.template,
+.brand,
+.dreams {
+    width: 31%;
+    float: left;
+    text-align: justify;
+    margin-right: 2%;
+
+}
+
+.template {
+    margin-left: 1%;
+}
+
+.template h3,
+.brand h3,
+.dreams h3 {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+
+}
+
+.template p,
+.brand p,
+.dreams p {
+    color: #433240;
+    text-align: justify;
+}
+
+/*second 
+section 
+starts here*/
+.second-section {
+    background: #2A2028;
+    overflow: hidden;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+}
+
+.second-header {
+    font-size: 45px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+.second-header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.second-menu {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+
+}
+
+.second-menu li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.second-menu #active {
+    border-bottom: 2px solid #9172AD;
+}
+
+.second-menu li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.portfolio-photo {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 35px;
+
+}
+
+.portfolio-photo img {
+    width: 95%;
+
+}
+
+.portfolio-photo .first-photo,
+.portfolio-photo .second-photo,
+.portfolio-photo .third-photo {
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.portfolio-photo .first-photo,
+.portfolio-photo .second-photo,
+.portfolio-photo .third-photo,
+.portfolio-photo .forth-photo,
+.portfolio-photo .fifth-photo {
+    float: left;
+}
+
+.portfolio-photo .first-photo,
+.portfolio-photo .second-photo,
+.portfolio-photo .third-photo,
+.portfolio-photo .forth-photo,
+.portfolio-photo .fifth-photo,
+.portfolio-photo .sixth-photo {
+    width: 32%;
+    overflow: hidden;
+    min-height: 215px;
+
+
+
+}
+
+.portfolio-photo h2 {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio-photo p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.seemy-work {
+    text-align: center
+}
+
+.seemy-work a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: #9171AC;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .1s;
+}
+
+.seemy-work a:hover {
+    background: green;
+}
+
+/*here 
+starts 
+third 
+section*/
+.third-section {
+    background-image: url(../images/background.png);
+    border: 1px solid black;
+    background-size: cover;
+
+}
+
+.third-section h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 79px;
+    padding-bottom: 50px;
+}
+
+.third-section p {
+    width: 60%;
+    margin: auto;
+    color: #B29D91;
+    text-align: center;
+    padding-bottom: 32px;
+
+}
+
+.photo-gallery {
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.photo-gallery img {
+    width: 99%;
+    min-height: 155px;
+}
+
+.gallery-first,
+.gallery-second,
+.gallery-third,
+.gallery-forth,
+.gallery-fifth,
+.gallery-sixth {
+    width: 31%;
+    float: left;
+    overflow: hidden;
+    margin-right: 2.3%;
+    padding-bottom: 6px;
+}
+
+.seemyphoto-blog {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.seemyphoto-blog a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background: #9072AC;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.seemyphoto-blog a:hover {
+    background: green;
+}
+
+/*subscribe 
+section 
+starts 
+here*/
+.subscribe-section {
+    padding-top: 170px;
+    background: #2A2028;
+}
+
+.subscribe-section img {
+    display: block;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.subscribe-section p {
+    color: #fff;
+    text-align: justify;
+    width: 45%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.subscribe-input {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 170px;
+}
+
+.subscribe-input input:first-child {
+    padding: 10px 20px;
+    width: 45%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.subscribe-input input:nth-of-type(2) {
+    background: #7C77C9;
+    padding: 11px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.subscribe-input input:nth-of-type(2):hover {
+    background: green;
+}
+
+/*footer 
+area 
+starts 
+here*/
+.footer {
+    background-image: url(../images/background.png);
+    background-size: cover;
+
+}
+
+.container-footer {
+    width: 50%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.footer .fab {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+    padding-bottom: 40px;
+    transition: .1s;
+}
+
+.footer a {
+    color: #DBDBDB;
+    transition: .1s;
+
+}
+
+.footer p {
+    color: #BCBCBC;
+    padding-bottom: 20px;
+}
+
+.footer a:hover i {
+    transform: scale(1.2);
+}
+
+.footer a:hover {
+    color: #5d2b2b;
+
+}
