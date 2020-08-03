@@ -205,8 +205,10 @@ starts here*/
 .portfolio-photo .second-photo,
 .portfolio-photo .third-photo,
 .portfolio-photo .forth-photo,
-.portfolio-photo .fifth-photo {
-    float: left;
+.portfolio-photo .fifth-photo,
+.portfolio-photo .sixth-photo 
+{
+   display:inline-block;
 }
 
 .portfolio-photo .first-photo,
